@@ -71,9 +71,9 @@ Below is the core operational flow of the Healthy Harvest desktop client, demons
    git clone [https://github.com/dilansachcha/Healthy-Harvest.git](https://github.com/dilansachcha/Healthy-Harvest.git)
    ```
 2. **Database Setup:**
-   * Install MySQL Server.
+   * Install and Setup MySQL Server.
    * Create a database named `healthy_harvest`.
-   * Import the provided `.sql` database dump file (if available in the repo) or allow the application to generate the tables.
+   * Allow the application to generate the tables.
 3. **Configure Database Credentials:**
    * Navigate to `src/com/model/MySQL.java` and update the database username and password to match your local MySQL configuration.
 4. **Resolve Dependencies:**
